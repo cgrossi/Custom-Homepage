@@ -8,6 +8,4 @@ This will be an ongoing project that will incorporate multiple mini projects int
 - HTML
 - CSS
 - Javascript
-- npm
-- Babel
 - SCSS
