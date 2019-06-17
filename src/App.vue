@@ -39,7 +39,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #ffffff;
   height: 100vh;
   width: 100vw;
   background-image: url("./assets/Moraine-Lake.jpg");
@@ -48,15 +48,27 @@ export default {
   background-repeat: no-repeat;
 }
 
-.app div {
-  border: 1px solid red;
-}
+// .app div {
+//   border: 1px solid red;
+// }
 
 main {
   display: flex;
   height: 85%;
   margin-bottom: 15px;
 }
+
+main .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// .hello {
+//   background-color: rgba(48, 57, 75, 0.767);
+//   border-radius: 3px;
+// }
 
 .third {
   width: 33.3333%;
